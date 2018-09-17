@@ -1,0 +1,52 @@
+body
+{
+  margin: 0px;
+}
+
+a
+{
+  text-decoration: none;
+  color: black;
+}
+
+h1
+{
+  text-align: center;
+  font-size: 50px;
+  padding: 30px;
+  margin:0px;
+}
+
+
+
+#grid
+{
+  display: grid;
+  grid-template-columns: 265px 1fr;
+}
+
+#grid ul
+{
+  border-right: 3px black solid;
+  border-left: 3px black solid;
+  width:200px;
+  margin: 0px;
+  padding-top: 20px;
+}
+
+#article
+{
+  padding:15px;
+}
+
+@media(max-width:800px)
+{
+  #grid
+  {
+    display: block;
+  }
+  #grid ul
+  {
+    border-right: none;
+  }
+}
