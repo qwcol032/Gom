@@ -1,0 +1,9 @@
+<h2>&lt;html&gt;</h2>
+<p>
+  &lt;!doctype html&gt;가 해당 문서를 읽는 사람에게 이 문서의 타입이 html을 알려주는것이라면
+  &lt;html&gt;태그는 브라우저에게 이 문서가 html로 쓰여있다는것을 알려준다.
+</p>
+<p>
+  일반적으로 &lt;!doctype html&gt;를 소스파일 상단에 쓰고 그 아래에 &lt;html&gt;쓰는 경우가 흔하다.
+  <br>html을 사용하여 웹페이지를 제작할때 &lt;html&gt;태그를 사용함으로 가독성을 높일수 있으며 html문서로써 써야하는 규칙이다.
+</p>
