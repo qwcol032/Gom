@@ -1,0 +1,72 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Gom's web page</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1><a href="index.html" style="color:#674040;">곰돌이의 웹 페이지</a></h1>
+    <table style="border-collapse: collapse; width:100%; background:#9e8b8b;">
+      <tr style="display:grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr;">
+        <th><a href="index.html">Information</a></th>
+        <th><a href="HTML_main.html">HTML</a></th>
+        <th style="background:#734a4a;"><a href="CSS.html">CSS</a></th>
+        <th><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></th>
+        <th><a href="https://opentutorials.org/" target="_blank">Opentutorials</a></th>
+      </tr>
+    </table>
+    <div id="grid">
+      <ul style="background:#9e8b8b;">
+        <li><a href="CSS.html">CSS</a></li>
+        <li><a href="display.html">display</a></li>
+        <li><a href="width.html">width</a></li>
+        <li><a href="height.html">height</a></li>
+        <li><a href="background.html">background</a></li>
+        <li><a href="font.html">font</a></li>
+        <li><a href="box_model.html">box_model</a></li>
+        <ol style="padding-top:0px; padding-left:15px;">
+          <li><a href="margin.html">margin</a></li>
+          <li><a href="padding.html">padding</a></li>
+          <li><a href="border.html">border</a></li>
+        </ol>
+      </ul>
+      <div id="article">
+        <h2>font</h2>
+        <p>
+          엘리먼트안의 텍스트 컨텐츠의 font-style, font-variant, font-weight, font-size, line-height, font-family를 설정하는 약식속성이다.
+        </p>
+        <h3>font-style</h3>
+        <ul>
+          <li>normal :  글꼴 데이터베이스에서 "normal"로 분류된 글꼴을 지정한다.</li>
+          <li>italic : 글꼴 데이터베이스에서 "italic"로 분류된 글꼴을 지정, 만약 이탤릭 형태가 없으면 oblique로 표현된다.</li>
+          <li>oblique : 글꼴 데이터베이스에서 "oblique"로 분류된 글꼴을 지정, 만약 기운 형태가 없으면 italic로 표현된다.</li>
+        </ul>
+
+        <h3>font-weight</h3>
+        <ul>
+          <li>normal : 글꼴을 400과 같은 굵기로 지정한다.</li>
+          <li>bold : 두껍게 지정한다. 글꼴을 700과 같은 굵기로 지정한다.</li>
+          <li>bolder : 더욱 두껍게 지정한다. 상속된 굵기가 900이면 굵기가 변경되지 않는다.</li>
+          <li>lighter : 더욱 얇게 지정한다. 상속된 굵기가 100이면 굵기가 변경되지 않는다.</li>
+          <li>100 ~ 900 : 글꼴을 100단위의 9가지 단계의 굵기로 지정한다.</li>
+        </ul>
+
+        <h3>font-size</h3>
+        <ul>
+        <li>절대 크기 : xx-small | x-small | small | medium | large | x-large | xx-large 를 절대 사이즈로 지정할 수 있다.
+        서로 인접한 절대크기의 비율이 1.2 배율의 차이를 가진다.<br>
+        예를 들여 medium이 12pt라면 large는 14.4pt의 크기를 가진다.</li>
+        <li>상대 크기 :  larger | smaller 를 상대 사이즈로 지정할 수 있다.<br>
+        예를 들어 부모 엘리먼트의 크기가 medium이라면 상대크기 larger는 현재 엘리먼트의 크기를 large로 만든다 .</li>
+        <li>길이 : 글꼴의 크기를 길이로 지정한다.
+        음수값은 지정할 수 없다. 절대적 글꼴 크기값을 지정한다. 단위로 em, ex를 사용할때는 부모요소의 글꼴 사이즈를 참조한다.</li>
+        <li>백분율 : 부모요소의 글꼴크기에 대한 퍼센테이지로 지정한다. 음수값은 지정 할 수 없다.<br>
+        백분율 값이나 'em'단위의 폰트사이즈들은 스타일시트를 효과적으로 케스케이딩하기 쉽게 해준다.</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

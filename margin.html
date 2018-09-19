@@ -1,0 +1,58 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Gom's web page</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1><a href="index.html" style="color:#674040;">곰돌이의 웹 페이지</a></h1>
+    <table style="border-collapse: collapse; width:100%; background:#9e8b8b;">
+      <tr style="display:grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr;">
+        <th><a href="index.html">Information</a></th>
+        <th><a href="HTML_main.html">HTML</a></th>
+        <th style="background:#734a4a;"><a href="CSS.html">CSS</a></th>
+        <th><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></th>
+        <th><a href="https://opentutorials.org/" target="_blank">Opentutorials</a></th>
+      </tr>
+    </table>
+    <div id="grid">
+      <ul style="background:#9e8b8b;">
+        <li><a href="CSS.html">CSS</a></li>
+        <li><a href="display.html">display</a></li>
+        <li><a href="width.html">width</a></li>
+        <li><a href="height.html">height</a></li>
+        <li><a href="background.html">background</a></li>
+        <li><a href="font.html">font</a></li>
+        <li><a href="box_model.html">box_model</a></li>
+        <ol style="padding-top:0px; padding-left:15px;">
+          <li><a href="margin.html">margin</a></li>
+          <li><a href="padding.html">padding</a></li>
+          <li><a href="border.html">border</a></li>
+        </ol>
+      </ul>
+      <div id="article">
+        <h2>margin</h2>
+        <p>
+          엘리먼트와 엘리먼트 사이의 간격을 지정한다.
+        </p>
+        <ol>
+          <li>'margin'은 'margin-top, margin-right, margin-bottom, margin-left'들을 한번에 지정하는 약식 속성이다.</li>
+          <li>마진을 갖는 박스들이 서로 인접해 있는 경우 수평 마진들은 통합되지 않지만, 수직 마진들은 통합 된다.<br>
+          이때 마진이 큰 쪽의 수직 마진쪽으로 통합된다.</li>
+          <li>마진은 음수값을 가질 수 있는데, 양수마진과 음수마진을 합산한 만큼의 수직마진을 가질 수 있다.</li>
+          <li>floated된 박스나 절대적 위치 혹은 상대적 위치의 박스의 마진들도 통합되지 않는다.</li>
+        </ol>
+        <h3>값</h3>
+        <ul>
+          <li>길이 : 고정된 너비를 지정. 음수값을 지정한다.</li>
+          <li>백분율 : 용기 블럭의 너비를 참조한다.</li>
+          <li>auto : 자동으로 계산된 값을 지정한다.</li>
+          <li>inherit : 부모 엘리멘트의 값을 상속한다.</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
